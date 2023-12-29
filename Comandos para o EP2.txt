@@ -1,0 +1,9 @@
+cd "Seu Endereço"
+
+gcc -fopenmp EP2_Paralelizado.c -o EP2_Paralelizado
+
+EP2_Paralelizado.exe
+
+gcc EP2_Sequencial.c -o EP2_Sequencial
+
+EP2_Sequencial.exe
